@@ -104,14 +104,47 @@ iframe{
     cursor: pointer;
 }
 
+.details-images{
+    background-color: rgba(17,21,27,0.8);
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.details-images:hover{
+    opacity: 1;
+}
+
 .title{
     color: white;
     align-self: flex-end;
-    padding: 15px 10px;
+    margin: 15px 10px;
+    text-decoration: underline;
+}
+.title-images{
+    color: white;
+    align-self: flex-end;
+    margin: 0px 10px 15px 10px;
+    text-decoration: none;
+}
+.title-images:hover{
     text-decoration: underline;
 }
 
 .video-link{
     width: 100%;
+    height: 100%;
+}
+
+.image-body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.image-body img{
     height: 100%;
 }
